@@ -1,0 +1,41 @@
+body {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url("../img/background.jpg");
+  background-position: top;
+  font-family: 'Open Sans', sans-serif;
+  color: #c6c6c6;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.content {
+    position: absolute;
+    top: 25%;
+    text-align: center;
+    width: 100%;
+}
+
+h1 {
+  color: #e2e2e2;
+  font-weight: 400;
+  font-size: 60px;
+  font-family: 'Tangerine', cursive;
+  margin-bottom: -15px;
+}
+
+p {
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+
+a {
+  border: solid 2px white;
+  border-radius: 5px;
+  padding: 10px;
+  color: #e2e2e2;
+}
